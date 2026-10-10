@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function NotFound() { return <main id="main" className="container section not-found"><span className="eyebrow">SAYFA BULUNAMADI · 404</span><h1>Aradığınız sayfa<br/>burada bulunmuyor.</h1><p style={{marginBottom:30}}>Bağlantı değişmiş olabilir. Ana sayfadan veya iletişim bilgilerinden devam edebilirsiniz.</p><div className="direct-actions"><Link href="/" className="button primary">Ana Sayfa</Link><Link href="/iletisim" className="button secondary">İletişim</Link></div></main>; }
